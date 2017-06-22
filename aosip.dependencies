@@ -20,6 +20,6 @@
  },
  {
    "repository" : "vendor_oneplus_oneplus3",
-   "target_path": "vendor/oneplus"
+   "target_path": "vendor/oneplus/oneplus3"
  }
 ]
