@@ -25,7 +25,7 @@ import android.content.IntentFilter;
 import android.os.IBinder;
 import android.util.Log;
 
-import org.lineageos.internal.util.FileUtils;
+import com.cyanogenmod.internal.util.FileUtils;
 
 public class PocketModeService extends Service {
     private static final String TAG = "PocketModeService";
