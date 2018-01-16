@@ -295,6 +295,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ims-ext-common
 
+# IMS
+PRODUCT_PACKAGES += \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += telephony-ext
+
 # IPv6
 PRODUCT_PACKAGES += \
     ebtables \
