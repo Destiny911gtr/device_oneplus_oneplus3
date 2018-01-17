@@ -2,6 +2,9 @@
 # system.prop for msm8996
 #
 
+# AoD
+persist.debug.force_burn_in=true
+
 # ADB at boot
 persist.service.adb.enable=1
 persist.service.debuggable=1
