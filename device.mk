@@ -503,6 +503,12 @@ PRODUCT_PACKAGES += \
     AdAway \
     PixelLauncher
 
+# Extra libs
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/libs/GCamFPotrait/libmmcamera2_mct.so:system/vendor/lib/libmmcamera2_mct.so \
+    $(LOCAL_PATH)/prebuilt/libs/GCamFPotrait/libmmcamera_imx179.so:system/vendor/lib/libmmcamera_imx179.so \
+    $(LOCAL_PATH)/prebuilt/libs/GCamFPotrait/libmmcamera_s5k3p8sp.so:system//vendor/lib/libmmcamera_s5k3p8sp.so
+
 # facelock properties
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.facelock.black_timeout=700 \
