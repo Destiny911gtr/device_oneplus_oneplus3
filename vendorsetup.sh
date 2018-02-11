@@ -1,0 +1,2 @@
+add_lunch_combo aos_oneplus3-eng
+add_lunch_combo aos_oneplus3-userdebug
