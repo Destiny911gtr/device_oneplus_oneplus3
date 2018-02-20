@@ -233,6 +233,11 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 # inherit from the proprietary version
 -include vendor/oneplus/oneplus3/BoardConfigVendor.mk
 
+# Dexpreopt
 WITH_DEXPREOPT=false
 
+# Temp
 ALLOW_MISSING_DEPENDENCIES=true
+
+# LockScreen Info
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
